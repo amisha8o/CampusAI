@@ -4,10 +4,15 @@ CampusAI is a full-stack AI/ML-enabled student success management platform desig
 
 ## 🚀 Live Project
 
-> Deployment is currently in progress.
-> The production frontend/backend URLs will be added here after deployment.
+CampusAI is deployed and available for live demonstration.
 
-### Local Development
+### 🌐 Production Deployment
+
+- **Live Frontend:** https://campus-ai-henna-ten.vercel.app/
+- **Backend API:** https://campusai-server-api.onrender.com
+- **ML Service:** https://campusai-vh7r.onrender.com
+
+### 💻 Local Development
 
 - Frontend: http://localhost:5173
 - Backend API: http://localhost:5000
@@ -90,7 +95,8 @@ CampusAI is a full-stack AI/ML-enabled student success management platform desig
 
 CampusAI follows a modular full-stack architecture where the React frontend communicates with the Node.js/Express backend through REST APIs, while the backend communicates with the Python ML service for machine-learning predictions.
 
-text
+For production deployment, the React frontend is hosted on Vercel, the Node.js/Express backend and Python ML service are hosted on Render, and MongoDB is used as the database layer.
+
                     ┌─────────────────────────┐
                     │       CampusAI User      │
                     │ Student / Faculty / Admin│
@@ -99,13 +105,13 @@ text
                                  ▼
                     ┌─────────────────────────┐
                     │   React + Vite Frontend  │
-                    │      localhost:5173      │
+                    │         Vercel            │
                     └────────────┬────────────┘
                                  │ REST API
                                  ▼
                     ┌─────────────────────────┐
                     │   Node.js + Express API  │
-                    │      localhost:5000      │
+                    │         Render            │
                     │                          │
                     │ JWT + RBAC + Business    │
                     │ Logic + Analytics         │
@@ -115,11 +121,13 @@ text
                             ▼          ▼
                  ┌──────────────┐  ┌──────────────┐
                  │   MongoDB    │  │ Python Flask │
-                 │   Database   │  │ ML Service   │
-                 └──────────────┘  │ localhost:8000│
+                 │    Atlas     │  │ ML Service   │
+                 └──────────────┘  │    Render    │
                                    │ Scikit-learn │
                                    │ Random Forest│
                                    └──────────────┘
+
+                                   
 ## 📁 Project Structure
 CampusAI/
 │
@@ -288,6 +296,7 @@ CampusAI has been tested across the major application workflows.
 | Risk Analytics | ✅ Complete |
 | Learning Progress | ✅ Complete |
 | ML Integration | ✅ Complete |
+| Production Deployment | ✅ Complete |
 | UI/UX | ✅ Complete |
 | Final Testing | ✅ Complete |
 | Research Experiments | 🔄 In Progress |
@@ -309,7 +318,6 @@ Research claims, performance metrics and experimental conclusions will be report
 - More comprehensive career datasets
 - Automated faculty intervention workflows
 - Advanced student performance forecasting
-- Cloud deployment
 - Production-grade monitoring and logging
 - Larger real-world datasets for model validation
 
@@ -403,8 +411,9 @@ This project is developed as an academic major project and research-oriented pro
 ---
 
 ## 🎥 Project Demo
+The live CampusAI deployment is available for demonstration through the production frontend.
 
-A complete project demonstration will be added after the final testing and deployment phase.
+A project demonstration video may be added separately.
 
 The demo will cover:
 
@@ -422,18 +431,23 @@ The demo will cover:
 - Machine-learning prediction
 
 ---
-
 ## 🌐 Live Demo
 
-> 🚧 Live deployment is currently in progress.
+**Frontend:** https://campus-ai-henna-ten.vercel.app/
 
-The production frontend, backend API and ML service URLs will be added after successful deployment and final verification.
+**Backend API:** https://campusai-server-api.onrender.com
 
----
+**ML Service:** https://campusai-vh7r.onrender.com
+
+The production deployment has been successfully tested, including frontend authentication, backend API communication, MongoDB connectivity, and backend-to-ML prediction integration.
 
 ## 📸 Screenshots & Research Evidence
 
-Screenshots and experimental outputs will be included as part of the final project documentation and research paper.
+## 📸 Screenshots & Research Evidence
+
+The following screenshots document the major CampusAI workflows, including student, faculty and admin modules.
+
+Experimental outputs and research results will be included as part of the final project documentation and research paper.
 
 The research results section will contain only experimentally obtained results and verified observations.
    
