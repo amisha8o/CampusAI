@@ -441,7 +441,6 @@ The demo will cover:
 
 The production deployment has been successfully tested, including frontend authentication, backend API communication, MongoDB connectivity, and backend-to-ML prediction integration.
 
-## 📸 Screenshots & Research Evidence
 
 ## 📸 Screenshots & Research Evidence
 
