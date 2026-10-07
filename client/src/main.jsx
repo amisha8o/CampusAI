@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
 
-const API = "http://localhost:5000/api";
+const API = "https://campusai-server-api.onrender.com/api";
 
 const emptyProfile = {
   branch: "Computer Science and Engineering",
